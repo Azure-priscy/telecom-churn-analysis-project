@@ -1,22 +1,12 @@
-# Telecom Customer Churn Analysis: Insights Report
-
-## Executive Summary
-
-This analysis examined customer churn patterns within a telecommunications company using customer demographic, billing, contract, payment, and service subscription data.
-
-The objective was to identify factors associated with customer attrition and provide actionable recommendations to improve customer retention and long-term revenue generation.
-
----
-
 # Key Insights
 
 ## 1. Contract Type is the Strongest Churn Indicator
 
-Customers on month-to-month contracts exhibited substantially higher churn than customers on one-year and two-year contracts.
+Customers on month-to-month contracts accounted for 1,655 churned customers, compared to only 166 and 48 churned customers on one-year and two-year contracts respectively.
 
-### Business Impact
+### Business Interpretation
 
-Customers with longer contractual commitments demonstrate greater loyalty and contribute more stable revenue over time.
+Customers with longer contractual commitments are significantly more likely to remain with the company, making contract type one of the strongest indicators of retention.
 
 ### Recommendation
 
@@ -24,95 +14,97 @@ Encourage customers to migrate to longer-term contracts through discounts, loyal
 
 ---
 
-## 2. Higher Monthly Charges are Associated with Churn
+## 2. Customers Who Churn Pay Higher Monthly Charges
 
-Customers who churned had higher average monthly charges than customers who remained with the company.
+Customers who churned recorded an average monthly charge of **74.44**, compared to **61.27** for customers who remained with the company.
 
-### Business Impact
+### Business Interpretation
 
-Price-sensitive customers may perceive insufficient value relative to cost, increasing the likelihood of switching providers.
-
-### Recommendation
-
-Review pricing structures and evaluate whether premium plans deliver sufficient customer value.
-
----
-
-## 3. Retained Customers Generate Higher Lifetime Revenue
-
-Customers who remained with the company accumulated significantly higher average total charges than customers who churned.
-
-### Business Impact
-
-Customer retention has a direct impact on long-term profitability.
+Higher monthly costs may increase customer sensitivity to pricing and encourage switching to competitors.
 
 ### Recommendation
 
-Prioritize retention strategies for high-value customer segments.
+Review premium service pricing and ensure customers perceive sufficient value for the cost.
 
 ---
 
-## 4. Electronic Check Users Experience Elevated Churn
+## 3. Retained Customers Generate More Lifetime Revenue
 
-Among all payment methods, customers using Electronic Check exhibited the highest churn rate.
+Customers who remained with the company accumulated an average total charge of **2555.34**, compared to **1531.80** for churned customers.
 
-### Business Impact
+### Business Interpretation
 
-Payment behavior may serve as an early indicator of customer dissatisfaction or disengagement.
+Although churned customers pay more each month, they leave before generating substantial lifetime revenue. Retention therefore has a direct impact on long-term profitability.
 
 ### Recommendation
 
-Promote automated payment methods such as credit card and bank transfer options.
+Focus retention efforts on high-value customers before they leave.
 
 ---
 
-## 5. Fiber Optic Customers Show High Churn Risk
+## 4. Electronic Check Users Exhibit the Highest Churn Rates
 
-Fiber Optic customers experienced significantly higher churn rates compared to DSL and customers without internet services.
+Customers using Electronic Check recorded a churn rate of **45.29%**, compared to **19.11%** for Mailed Check users, **16.71%** for Bank Transfer users, and **15.32%** for Credit Card users.
 
-### Business Impact
+### Business Interpretation
 
-A high-value customer segment may be at risk of leaving the company.
+Payment method appears to be strongly associated with customer churn behavior.
 
 ### Recommendation
 
-Investigate pricing, service quality, customer support responsiveness, and competitor offerings.
+Promote automatic payment methods and investigate potential friction in the Electronic Check payment process.
 
 ---
 
-## 6. Tech Support Improves Customer Retention
+## 5. Fiber Optic Customers Represent a High-Risk Segment
 
-Customers without Tech Support services were considerably more likely to churn.
+Fiber Optic customers exhibited a churn rate of **41.89%**, compared to **18.98%** for DSL customers and **7.40%** for customers without internet services.
 
-### Business Impact
+### Business Interpretation
 
-Customer assistance services contribute to satisfaction and loyalty.
+Premium internet customers appear to be significantly more likely to leave the company.
 
 ### Recommendation
 
-Increase adoption of Tech Support through service bundles and promotional campaigns.
+Investigate pricing, service quality, customer support responsiveness, and competitor offerings within the Fiber Optic segment.
 
 ---
 
-## 7. Online Security Services are Linked to Retention
+## 6. Tech Support Significantly Improves Retention
 
-Customers subscribed to Online Security services displayed substantially lower churn rates.
+Among customers without Tech Support, **1,446** customers churned, compared to only **310** churned customers among those subscribed to Tech Support services.
 
-### Business Impact
+### Business Interpretation
 
-Value-added services strengthen customer engagement and increase perceived service value.
+Access to customer assistance services appears to improve customer satisfaction and retention.
 
 ### Recommendation
 
-Promote Online Security as part of customer retention initiatives.
+Increase Tech Support adoption through bundled offerings and targeted promotions.
 
 ---
 
-## 8. Customers with Dependents and Partners are More Loyal
+## 7. Online Security Services are Associated with Lower Churn
 
-Customers with dependents and partners exhibited significantly lower churn rates compared to those without.
+Customers without Online Security recorded **1,461** churns, compared to only **295** churns among customers subscribed to Online Security services.
 
-### Business Impact
+### Business Interpretation
+
+Value-added services may increase customer engagement and strengthen loyalty.
+
+### Recommendation
+
+Promote Online Security services as part of customer retention initiatives.
+
+---
+
+## 8. Customers with Dependents and Partners are Less Likely to Churn
+
+Customers with dependents recorded a churn rate of **15.45%**, compared to **31.28%** among customers without dependents.
+
+Similarly, customers with partners recorded a churn rate of **19.66%**, compared to **32.96%** among customers without partners.
+
+### Business Interpretation
 
 Household stability appears to be associated with stronger customer retention.
 
@@ -122,25 +114,14 @@ Develop family-oriented service bundles and loyalty programs.
 
 ---
 
-## 9. Gender Has Minimal Influence on Churn
+## 9. Gender Has Minimal Impact on Churn
 
-Male and female customers exhibited nearly identical churn rates.
+Male customers recorded a churn rate of **26.16%**, while female customers recorded a churn rate of **26.92%**.
 
-### Business Impact
+### Business Interpretation
 
-Gender is not a meaningful predictor of churn within this dataset.
+The difference is less than one percentage point, indicating that gender is not a meaningful predictor of customer churn.
 
 ### Recommendation
 
 Retention efforts should focus on behavioral and service-related factors rather than gender demographics.
-
----
-
-# Overall Conclusion
-
-The analysis indicates that customer churn is driven primarily by contract commitment, service engagement, payment behavior, and customer support adoption rather than gender demographics.
-
-Customers on month-to-month contracts, Fiber Optic plans, Electronic Check payment methods, and those lacking Tech Support or Online Security services represent the highest-risk groups.
-
-Targeted retention initiatives focusing on these customer segments could significantly improve customer loyalty and long-term revenue performance.
-
